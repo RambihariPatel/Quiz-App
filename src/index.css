@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 70vh;
+    background-image: linear-gradient(#D8C7FE, #19006C);
+    font-family: 'poppins';
+
+    display: flex;
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+}
+
