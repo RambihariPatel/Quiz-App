@@ -1,16 +1,52 @@
-# React + Vite
+# 🧠 Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo: https://quizappbyram.netlify.app/
 
-Currently, two official plugins are available:
+Quiz App is an interactive and responsive web application that allows users to test their knowledge through multiple-choice questions. It provides a clean UI, instant feedback, and an engaging experience for users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ❓ Multiple Choice Questions (MCQs)
+- ⏱️ Timer-based quiz system
+- 📊 Score calculation after quiz completion
+- 🔄 Restart quiz functionality
+- 📱 Fully responsive (Mobile + Desktop)
+- ⚡ Fast and smooth user experience
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Logic Handling:** JavaScript (DOM Manipulation)
+- **Styling:** Flexbox, Media Queries
+- **Deployment:** Netlify
+
+---
+
+## 🎯 How It Works
+
+1. User starts the quiz
+2. Questions are displayed one by one
+3. User selects an answer
+4. Timer tracks the quiz duration
+5. Final score is displayed at the end
+
+---
+
+## 📸 Screenshots
+
+<!-- Add your screenshots -->
+![Quiz Start](./screenshots/start.png)
+![Question](./screenshots/question.png)
+![Result](./screenshots/result.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+git clone https://github.com/your-username/quiz-app.git
